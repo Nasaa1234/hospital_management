@@ -1,0 +1,52 @@
+---- Model ----
+
+User
+Admin
+Patient
+Doctor
+
+---- Services ----
+
+Appointment
+Record
+
+
+
+MVP
+
+Login, Register
+Add new patient, View and update Record
+Request appointment(Patient to Doctor)
+Doctor can approve and reject patient appointment
+Doctor can see patient history/report
+Doctor add new report.
+
+
+File system
+
+Hospital/
+│── src/
+│   ├── App.java
+│   ├── models/
+│   │   ├── User.java
+│   │   ├── Patient.java
+│   │   ├── Doctor.java
+│   │   ├── Admin.java
+│   ├── services/
+│   │   ├── AppointmentService.java
+│   │   ├── MedicalRecordService.java
+|   |   |-- UserLoader.java
+│── README.md
+│── uml.txt (MVP & management)
+
+
+using colors( RGB )
+
+new Color(255, 255, 255)	White
+new Color(216, 218, 220)	Light Gray / Mist Gray
+new Color(41, 41, 41)	Charcoal / Dark Gray
+new Color(64, 64, 64)	Slate Gray / Graphite
+new Color(0, 31, 134)	Royal Blue / Deep Navy
+new Color(22, 74, 255)	Bright Blue / Vivid Azure
+
+
